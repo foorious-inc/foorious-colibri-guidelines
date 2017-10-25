@@ -6,4 +6,10 @@ Colibrì is a team of software developers based in Wrocław, Poland, focusing on
 
 This repo includes details on the project, and documents Colibri's workflow, tech stack, etc. 
 
-See Wiki for more info: https://github.com/nkkollaw/colibri/wiki/
+## Tech stack
+
+See: https://github.com/nkkollaw/colibri/wiki/Tech-stack, https://github.com/nkkollaw/colibri/wiki/WordPress-projects for WordPress projects.
+
+## Workflow
+
+See: https://github.com/nkkollaw/colibri/wiki/Workflow.
