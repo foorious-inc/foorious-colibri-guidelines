@@ -1,6 +1,6 @@
 # Foorious/Colibri guidelines
 
-## about
+## About
 
 ![alt text](https://i.imgsonic.com/demo/?src=https://i.imgsonic.com/demo/?src=https://foorious.com/wp-content/uploads/2014/11/Unicorn_Portrait_Black_and_White-unicorn15.png&width=200 "Foorious")
 
