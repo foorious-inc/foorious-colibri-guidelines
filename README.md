@@ -4,12 +4,12 @@
 
 ![alt text](https://i.imgsonic.com/demo/?src=https://i.imgsonic.com/demo/?src=https://foorious.com/wp-content/uploads/2014/11/Unicorn_Portrait_Black_and_White-unicorn15.png&width=200 "Foorious")
 
-Foorious, inc. is a software company based in Wroclaw, Poland.
+Foorious, inc. is a software company based in Wrocław, Poland.
 
 
 ![alt text](https://i.imgsonic.com/demo/?src=https://i.imgur.com/nTpUdtP.png&width=130 "Colibri")
 
-Colibrì is a team of software developers based in Wrocław, Poland, focusing on solving software-related problems of [Librì progetti educativi](https://www.progettieducativi.it), a publishing/advertising company based in Florence, Italy.
+Colibri--which should in theory be written as "Colibrì"--is a team of software developers based in Wrocław, Poland, focusing on solving software-related problems of [Librì progetti educativi](https://www.progettieducativi.it), a publishing/advertising company based in Florence, Italy.
 
 ## About this wiki
 
