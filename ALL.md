@@ -211,7 +211,9 @@ Plan is to **GENERATE EVERYTHING FROM SWAGGER DEFINITIONS!!**
 
 #### Writing documentation
 
-When you write code, add OAI stuff directly in the controller. This, because keeping separate files means we'll forget, and never do it.
+When you write code, add OAI stuff directly in the code. This, because keeping separate files means we'll forget, and never do it.
+
+Follow the pet store example for how and where to put stuff: https://github.com/zircote/swagger-php/tree/master/Examples/petstore-3.0/.
 
 #### Generate documentation
 
