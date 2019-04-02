@@ -209,6 +209,14 @@ Plan is to **GENERATE EVERYTHING FROM SWAGGER DEFINITIONS!!**
 
 ![](https://i.imgsonic.com/demo/?src=https://media.giphy.com/media/10jFq0frYnX9PG/giphy.gif&width=80)
 
+#### Writing documentation
+
+When you write code, add OAI stuff directly in the controller. This, because keeping separate files means we'll forget, and never do it.
+
+#### Generate documentation
+
+We then use https://github.com/DarkaOnLine/L5-Swagger/ to parse the PHP files and generate documentation, using `L5_SWAGGER_GENERATE_ALWAYS` so that we don't have to worry about it.
+
 ### 8.1.2.2 General guidelines
 
 APIs MUST adhere to the following:
