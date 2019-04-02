@@ -19,15 +19,15 @@ Follow these instructions so that your work can pass QA for Foorious/Colibri pro
 
 We use an API-first approach, where as much of the action as possible happens on the front-end, which communicates with the back-end via REST APIs.
 
-On the back-end we use the LEMP stack, on the front-end ReactJS (with Redux, if needed).
+On the back-end we use the LAMP stack, on the front-end ReactJS.
 
 We build a lot of projects that have a short lifespan (web apps for events etc.), and we love to take the opportunity to experiment with new technologies or use stuff that might be gone after 6 months.
 
 ## 2.1 Back-end
 
-We use the LEMP stack for custom apps and complicated websites, and WordPress on LEMP/LAMP for simple websites, landing pages, etc.
+We use the LAMP stack for custom apps and complicated websites, and WordPress on LAMP for simple websites, landing pages, etc.
 
-Reasons to favor LEMP over more trendy technologies (like MEAN and others) are:
+Reasons to favor LAMP over more trendy technologies (like MEAN and others) are:
 
 * ubiquity
 * most people know and have worked in the ecosystem extensively, it's easier to find people to help us out
@@ -36,7 +36,7 @@ Reasons to favor LEMP over more trendy technologies (like MEAN and others) are:
 * WordPress is written in PHP, we can share code if we use WordPress on some projects
 
 ### HTTP server
-* Nginx
+* Apache
 
 ### PHP
 * Modern PHP (version version 7+ with no regard to previous versions, written following PSRs)
@@ -77,7 +77,6 @@ On the data side, we're using REST APIs pretty much exclusively.
 
 * Latest version
 * React Router
-* Redux
 
 ## 2.3 Version control
 
@@ -91,15 +90,15 @@ As of 07/2018, we're using:
 
 * dedicated VPSes on Vultr or own SSD servers
 * latest Ubuntu LTS release (using Bionic as of 08/2018)
-* Nginx
+* Apache
 * MySQL 5.7
 * GlusterFS + Galera in multi-server configs, using AWS for DNS management and health checks
 
-While developing, we use dfferent technologies according to what is being developed:
+While developing, we use different technologies according to what is being developed:
 
 - for static websites, we use a Gulp-based setup with hot reloading
 - if we need is a simple web server (for instance, for WordPress websites using Sqlite), we use PHP's built-in server
-- if developing a Laravel REST API, we use Docker exclusively, and you MUST use https://github.com/nkkollaw/foorious-docker-laravel/
+- if developing a Laravel REST API, we use Docker exclusively, and you MUST use https://github.com/nkkollaw/foorious-laravel-api/
 
 See the appropriate section for more details.
 
@@ -143,7 +142,7 @@ Coming soon
 
 Sites that might have some functionality but are mainly static.
 
-If you need PHP, you MUST use https://github.com/nkkollaw/foorious-docker-lemp/.
+If you need PHP, you MUST use https://github.com/foorious-inc/docker-lamp/.
 
 # 7. WordPress websites
 
@@ -153,7 +152,7 @@ It features a SQLite database instead of MySQL, which dramatically eases sharing
 
 NOTE that this is for development purposes only. An All-in-one Migration or a manual migration will be performed to trasfer the site to production, and that should use MySQL.
 
-While developing, you MUST using this: https://github.com/nkkollaw/foorious-docker-lemp/
+While developing, you MUST using this: https://github.com/foorious-inc/docker-lamp/.
 
 # 8. Web apps
 
