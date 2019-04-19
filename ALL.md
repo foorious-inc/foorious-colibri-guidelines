@@ -541,7 +541,7 @@ save_pet($pet_data) {
     // validate
     $rules = \App\Models\Pet::rules();
 
-    $validator = \Illuminate\Support\Facades\Validator\Validator::make($pet_data, $rules);
+    $validator = \Illuminate\Support\Facades\Validator::make($pet_data, $rules);
 
     if ($validator->fails()) {
         throw new \Exception('validation problem(s): ' . $validator->messages());
