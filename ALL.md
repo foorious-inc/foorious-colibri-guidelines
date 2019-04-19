@@ -541,8 +541,7 @@ For validating object, we take advantage of the model's rules:
 ```php
 save_pet($pet_data) {
     // validate
-    $myModel = new \App\Models\Pet(); // or equivalent, as long as we get the rules from the model
-    $rules = $myModel->rules();
+    $rules = \App\Models\Pet::rules();
 
     $validator = \Illuminate\Support\Facades\Validator\Validator::make($pet_data, $rules);
 
