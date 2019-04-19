@@ -380,7 +380,7 @@ class Pet extends Model
         'age'
     ];
 
-    public function rules()
+    public static function rules()
     {
         return [
           'name' => 'required|max:255',
