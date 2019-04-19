@@ -528,8 +528,8 @@ All services MUST be static classes.
 Methods for CRUD are:
 
 - `getPets/getPetById` -- for retrieving objects
-- `createPet` -- should use a private function `_save` for creating + updating, with an `$id` parameter
-- `updatePet` -- should use a private function `_save` for creating + updating, with an `$id` parameter
+- `createPet` -- should use a private function `_savePet` for creating + updating, with an `$id` parameter
+- `updatePet` -- should use a private function `_savePet` for creating + updating, with an `$id` parameter
 - `deletePet`
 
 #### Validation
