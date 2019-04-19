@@ -276,9 +276,7 @@ APIs MUST adhere to the following:
 - `format` GET parameter to specify format, defaults to `JSON` (could be `XML`, `CSV`, etc., case-insensitive)
 - GET endpoints MUST also implement:
   - sorting via `sort_by` for the field, `sort_dir` (`ASC` or `DESC`, case-insensitive) for sorting direction
-  - `created_after`/`created_before`
-  - `updated_after`/`updated_before`
-  - pagination via `offset` and `limit`. `limit` can be `-1` to return all records. Default should be something like 20.
+  - pagination via `offset` and `limit`. `limit` can be `-1` to return all records. Default should be something like 20 or 25.
 
 Sample response for CREATE (notice that we return the whole newly-created object)
 
