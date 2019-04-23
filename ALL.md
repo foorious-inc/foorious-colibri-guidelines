@@ -362,7 +362,7 @@ If an endpoint has multiple words (ex., "product groups"), we use hyphens (see h
 ## 8.1.3 Laravel guidelines
 
 - use models for defining and holding data ONLY
-- use services with POPOs (plain old PHP objects) for retrieving and saving data, do validation, etc.
+- use services with POPOs (plain old PHP objects) for retrieving and saving data, do validation, etc. (NOTE: validation is done inside services instead of controllers, because certain objects could span multiple models)
 - routes are mapped to controllers
 - controllers call services, and return models. do NOT put any business logic in controllers, EVER
 
