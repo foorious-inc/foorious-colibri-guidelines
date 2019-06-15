@@ -612,6 +612,10 @@ if (Auth::user()->user_type >= AUTH_USER_TYPE_EDITOR) {
 
 Might be dumb, though.
 
+## 8.1.3.5 DB seeders
+
+See: https://stackoverflow.com/a/32856878
+
 # 8.2 React
 
 Anything that takes more than 1 hour with jQuery MUST BE implemented with ReactJS.
