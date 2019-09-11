@@ -188,7 +188,7 @@ rm -v -r -f /tmp/foorious-docker-lamp/
 Add the contents of https://github.com/nkkollaw/foorious-laravel-api/ to the `www` folder inside your project.
 
 ```bash
-cd ./www/ # <-- go inside your project's www folder, wherever it is
+cd ./public_html/ # <-- go inside your project's www folder, wherever it is
 rm -v index.php # if you haven't touched anything, there is an index.php file for testing, which we don't need
 git clone https://github.com/nkkollaw/foorious-laravel-api.git
 cp -v -r foorious-laravel-api/* .
