@@ -42,7 +42,7 @@ Reasons to favor LAMP over more trendy technologies (like MEAN and others) are:
 * Modern PHP (version version 7+ with no regard to previous versions, written following PSRs)
 * Composer
 * Laravel
-* code style: PSR-2 (http://www.php-fig.org/psr/psr-2/), + vars holding primitive values MUST be `$snake_case`, vars that hold objects `$myCamelCase`.
+* code style: PSR-2 (http://www.php-fig.org/psr/psr-2/), + vars always in camelCase.
 
 ### DB
 * MySQL 5.7
