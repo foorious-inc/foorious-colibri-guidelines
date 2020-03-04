@@ -521,7 +521,7 @@ Services write and retrieve data from the DB, do validation, etc. etc.
 
 Services MUST go inside `/app/Services`--you should create this directory if it's not there already.
 
-Classes for services MUST be named by pluralizing the model name and appending the word "Manager". For instance: `\App\Services\PetsManager`.
+Classes for services MUST be named by pluralizing the model name and appending the word "Service". For instance: `\App\Services\PetsService`.
 
 All services MUST be static classes.
 
